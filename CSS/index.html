@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cafe Menu</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="menu">
+        <main>
+            <h1>Celestea Cafe</h1>
+            <p class="established">Est. 2020</p>
+            <hr>
+            <section>
+                <h2>Coffee</h2>
+                <article class="item">
+                    <p class="flavor">Americano</p><p class="price">5.00</p>
+                </article>
+                <article class="item">
+                    <p class="flavor">Cappucino</p><p class="price">6.00</p>
+                </article>
+                <article class="item">
+                    <p class="flavor">Mochacino</p><p class="price">5.45</p>
+                </article>
+                <article class="item">
+                    <p class="flavor">Cafe Latte</p><p class="price">7.00</p>
+                </article>
+            </section>
+            <section>
+                <h2>Tea</h2>
+                <article class="item">
+                    <p class="tea">Green Tea</p><p class="price">4.50</p>
+                </article>
+                <article class="item">
+                    <p class="tea">Earl Grey</p><p class="price">3.50</p>
+                </article>
+                <article class="item">
+                    <p class="tea">Chai Latte</p><p class="price">4.50</p>
+                </article>
+                <article class="item">
+                    <p class="tea">Black Tea</p><p class="price">5.00</p>
+                </article>
+            </section>
+        </main>
+        <hr class="bottom-line">
+
+        <footer>
+            <form>
+                <h3>CUSTOMER ORDER FORM</h3>
+                <fieldset>
+                    <label for="name">UserName: <input id="name" type="text" required /></label><br>
+                    <label for="address">Address: <input id="address" type="text" required /></label><br>
+                    <label for="number">Phone Number: <input id="number" type="number" minlength="11" required/></label>
+                </fieldset>
+                <fieldset>
+                    <label for="title">Delivery: </label> <br> <input type="radio" name="delivery" class="inline" />Local Drop Off</label> <br> <input type="radio" name="delivery" class="inline" />Local Pick Up</label>
+                </fieldset>
+                <fieldset>
+                    <label
+                for="payment">Payment: </label>
+                <select name="select"
+                id="payment">
+                    <option
+                    value="cash">Cash on Delivery</option>
+                    <option
+                    value="cash">Credit/Debit Card</option>
+                    <option
+                    value="gcash">Gcash</option>
+                </select>
+                </fieldset>
+                <fieldset>
+                    <label for="message">Order Notes: <input id="text" type="text" required /></label>
+                </fieldset>
+                </select>
+                <br>
+                <input type="submit" value="Submit" />
+            </form>
+        </footer>
+        </div>
+    </body>
+</html>
